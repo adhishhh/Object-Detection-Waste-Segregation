@@ -4,7 +4,12 @@ This Arduino code uses a Servo motor and a soil moisture sensor to monitor soil 
 When moisture is below the threshold (500), it moves the Servo to 45 degrees for 2 seconds. 
 The sensor is connected to A0, and the Servo is connected to pin 9 with an initial position of 90 degrees.
 */
-
+/*
+install the DHT sensor library. 
+Go to Sketch -> Include Library -> Manage Libraries, 
+search for "DHT" and install the appropriate library (DHT Sensor Library by Adafruit).
+In our case add library from the github.
+*/
 #include <Servo.h>
 
 const int soilMoistureSensorPin = A0;
