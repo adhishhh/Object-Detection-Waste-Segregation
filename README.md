@@ -1,4 +1,6 @@
 # Project Title: Waste Segregation using Object Detection with TensorFlow
+# Prof.Mrunal Annadate
+# Author-adhishvairagade-TL
 
 Project Description:
 The objective of this project is to develop an application that can detect and segregate waste using object detection with TensorFlow. The application will use a machine learning model trained on a dataset of images to identify different types of waste, such as plastics, paper, metal, and glass.
